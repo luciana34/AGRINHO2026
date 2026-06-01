@@ -1,0 +1,1 @@
+Esse projeto tem como objetivo ver como a sustentabilidade e importante feito pela aluna Luciana do 3 ano do ensino médio do Colégio estadual Curitiba em Paranavai

@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustentabilidade & Produção: O Equilíbrio Necessário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
 
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <i class="fa-solid fa-seedling"></i> Eco<span>Prod</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Os Pilares</a></li>
+                    <li><a href="#simulador">Simulador</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h1>O Futuro Exige Equilíbrio</h1>
+            <p>Produzir com eficiência sem esgotar o amanhã. Descubra como a indústria e a natureza podem caminhar juntas.</p>
+            <a href="#pilares" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="pilares-section container">
+        <h2 class="section-title">Como Alinhar os Dois Lados?</h2>
+        <div class="grid-pilares">
+            <div class="card">
+                <i class="fa-solid fa-industry icon-card"></i>
+                <h3>Produção Eficiente</h3>
+                <p>Otimização de processos, automação inteligente e redução de desperdício de matéria-prima na linha de produção.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-recycle icon-card"></i>
+                <h3>Economia Circular</h3>
+                <p>Descarte zero. O resíduo de uma indústria se transforma no insumo de outra, fechando o ciclo de vida dos produtos.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-solar-panel icon-card"></i>
+                <h3>Fontes Renováveis</h3>
+                <p>Migração para matrizes energéticas limpas, como eólica, solar e biomassa, reduzindo a pegada de carbono.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="simulador" class="simulador-section">
+        <div class="container">
+            <h2 class="section-title">Simulador de Impacto</h2>
+            <p class="sub-simula">Ajuste os controles abaixo e veja o que acontece com o status do planeta.</p>
+            
+            <div class="simulador-box">
+                <div class="controles">
+                    <div class="control-group">
+                        <label for="range-producao">Ritmo de Produção: <span id="val-producao">50</span>%</label>
+                        <input type="range" id="range-producao" min="10" max="100" value="50">
+                    </div>
+                    <div class="control-group">
+                        <label for="range-sustentavel">Investimento Verde: <span id="val-sustentavel">50</span>%</label>
+                        <input type="range" id="range-sustentavel" min="10" max="100" value="50">
+                    </div>
+                </div>
+
+                <div class="resultado-painel">
+                    <h3>Status do Ecossistema:</h3>
+                    <div id="status-badge" class="badge ideal">Equilibrado</div>
+                    <p id="status-desc">A produção está alinhada com a capacidade de regeneração do planeta. Cenário ideal!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container footer-content">
+            <p>&copy; 2026 EcoProd. Desenvolvido para um futuro sustentável.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
